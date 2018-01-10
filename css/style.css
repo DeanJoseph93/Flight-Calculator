@@ -1,0 +1,298 @@
+/* -----------------------------
+    Css Reset
+-------------------------------- */
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0b2 | 201101 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output,
+ruby, section, summary, time, mark,
+audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+img{vertical-align: top;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, menu, nav,
+section, canvas, main, video { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+
+.clearFix {
+    clear: both;
+}
+/*-------------------------------
+General Section
+-------------------------------*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: #ffffff;*/
+}
+
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*-------------------------------
+Header Section
+-------------------------------*/
+
+.topHead {
+    width: 100%;
+    height: 190px;
+    background-color: #102A34;
+    border-bottom: 4px solid #ffffff;
+}
+
+
+#imagePlane {
+    margin-top: 30px;
+}
+
+.lowerTitle {
+    margin-top: 30px;
+}
+
+.lowerTitle h2 {
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 700;
+}
+/*-------------------------------
+Main Section
+-------------------------------*/
+
+.mainSection {
+    width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0px 5px 3px 3px #333;
+    background-color: #7FA7A4;
+    padding-bottom: 100px;
+}
+
+
+.mainTitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: #ffffff;
+    padding: 55px 0 70px;
+    text-shadow: 2px 2px #333;
+}
+
+
+/*-------------------------------
+Form Section
+-------------------------------*/
+
+#form {
+    float: left;
+    width: 350px;
+    font-size: 13px;
+    margin-left: 20px;
+
+}
+
+/*#form2 {
+    !*float: left;*!
+    width: 350px;
+    font-size: 13px;
+    margin-left: 20px;
+}*/
+
+#images {
+    width: 415px;
+    height: 350px;
+    /*border: 5px solid #FFFFFF;*/
+    position: relative;
+    margin-left: 381px;
+}
+
+
+
+#flights {
+    border-bottom: 3px dotted black;
+    padding-bottom: 11px;
+    margin-left: 6px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+#lists {
+    padding: 35px 0px;
+    font-size: 19px;
+}
+
+
+
+#luggage {
+    border-bottom: 3px dotted black;
+    padding-bottom: 11px;
+    margin-left: 6px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+#listsLuggage {
+    padding: 35px 0px;
+    font-size: 19px;
+    width: 350px;
+}
+
+
+
+#prices {
+    position: relative;
+    float: right;
+    width:  323px;
+    /*border: 2px solid black;*/
+    margin: 3px 18px;
+    background-color: #415F62;
+}
+
+
+#total {
+    width:  150px;
+    float: left;
+
+}
+
+
+
+
+.booking {
+    background-color: #415F62;
+    margin: 10px;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+
+.total {
+    background-color: #102A34;
+    /*margin: 10px;*/
+    padding: 20px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 163px;
+}
+
+
+#totalPriceCol {
+    width:  130px;
+    float: right;
+}
+
+
+#bookingPrice {
+    position: absolute;
+    top: 21px;
+    left: 133px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+#flightPrice {
+    position: absolute;
+    top: 66px;
+    left: 133px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+#luggagePrice {
+    position: absolute;
+    top: 111px;
+    left: 133px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+
+#totalPrice {
+    position: absolute;
+    top: 183px;
+    left: 133px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+
+/*#prices td {
+    background-color: #415F62;
+    margin: 10px;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 19px;
+}
+
+
+
+
+#prices tr:last-child td {
+    background-color: #102A34;
+    color: #FFFFFF;
+    font-weight: bold;
+}*/
+
+
+#imageCountry {
+    width: 415px;
+    height: 350px;
+    border: 4px solid #FFFFFF;
+}
+
+
+
+
+
+/*-------------------------------
+footer Section
+-------------------------------*/
+
+
+footer {
+    width: 100%;
+    background-color: #102A34;
+    border-top: 4px solid #ffffff;
+    height: 165px;
+}
+.footPar h3{
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-size: 24px;
+    padding-top: 30px;
+    font-weight: 700;
+
+}
+
+
+
+
+
+/*-------------------------------
+General Section
+-------------------------------*/
+
+
+/*-------------------------------
+General Section
+-------------------------------*/
